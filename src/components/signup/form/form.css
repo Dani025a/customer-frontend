@@ -1,0 +1,54 @@
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.signup-subtitle {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.signup-link {
+  color: #00b8e4;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+.signup-form {
+  width: 100%;
+}
+
+.zipcode-city-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 16px;
+  margin-bottom: 1rem;
+}
+
+.phone-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  margin-bottom: 1rem;
+}
+
+.country-code-select {
+  width: 100px;
+}
+
+.phone-input {
+  flex: 1;
+}
+

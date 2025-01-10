@@ -1,0 +1,19 @@
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.checkbox-input {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #00b8e4;
+  border-radius: 2px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  user-select: none;
+}
+
